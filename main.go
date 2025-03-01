@@ -64,7 +64,7 @@ func main() {
 %s: %s
 %s: %d/%d
 %s: %s
-`, artColor(bold(hostname)), strings.Repeat("-", 30), artColor("Distro"), distro, artColor("Kernel"),GetKernel(), 
+`, artColor(bold(hostname)), strings.Repeat("────୨ৎ────", 3), artColor("Distro"), distro, artColor("Kernel"),GetKernel(), 
 artColor("Gpu"),gpu, artColor("Cpu"), cpu, artColor("De"),de, artColor("Shell") ,shell, artColor("Memory") ,used/1024/1024, total/1024/1024,
 artColor("Go version"), version)
 
